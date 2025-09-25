@@ -19,7 +19,6 @@ int main () {
         printf("n/a");
     } else {
         double degree = radian * 57.29;
-        degree = round(degree);
-        printf("%0.lf",degree);
+        printf("%.0lf",round(degree));
     }
 }
